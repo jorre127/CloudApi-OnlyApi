@@ -42,11 +42,9 @@
 
 ## db-[99:101]-node.example.com
 
-[belangrijkeservers]
-192.168.0.197 ansible_user=root
-192.168.0.147 ansible_user=root
-[testservers]
-192.168.0.212 ansible_user=root
+Host dev
+  Hostname 172.17.0.8
+  user root
 
 [testomgeving]
 172.17.0.7 ansible_user=root
