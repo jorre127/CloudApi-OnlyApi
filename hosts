@@ -50,4 +50,3 @@ Host dev
 172.17.0.5 ansible_user=root
 [productieomgeving]
 172.17.0.4 ansible_user=root
-
