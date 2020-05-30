@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: copy files
+    copy:
+      src: /var/jenkins_home/workspace/AnsibleDeploy/Api
+      dest: /api
+
+
