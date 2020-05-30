@@ -47,9 +47,9 @@ Host dev
   user root
 
 [testomgeving]
-172.17.0.7 ansible_user=root
+172.17.0.5 ansible_user=root
 [productieomgeving]
-172.17.0.8 ansible_user=root
+172.17.0.4 ansible_user=root
 
 
 
